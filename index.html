@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="EE.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>FORMULÁRIO DE IDENTIFICAÇÃO</h1>
+
+            <label for="pesquisa">Search</label>
+            <input type="search" id="pesquisa">
+        </nav>
+    </header>
+
+    <main>
+        <nav>
+            <form>
+                <label for="NOME">NOME COMPLETO:</label><br>
+                <input type="text" id="NOME" placeholder="Escreva aqui"><br><br>
+
+                <label for="idade">Qual é a sua idade?</label><br>
+                <input type="number" id="idade" placeholder="digite aqui"><br><br>
+
+                <label for="genero">Qual é o seu gênero?</label><br>
+                <input type="radio" name="genero">masculino 
+                <input type="radio" name="genero">feminino
+                <input type="radio" name="genero">prefiro não dizer <br><br>
+
+                <label for="data">Qual é a sua data de nascimento?</label><br>
+                <input type="date"><br><br>
+
+                <label for="submit">Você estuda na Etec?</label><br>
+                <input type="submit" value="SIM!"><br><br>
+
+                <label for="horas">Que horas são?</label><br>
+                <input type="time"><br><br>
+
+                <label for="inicio">Quando as aulas começam?</label><br>
+                <input type="week"><br><br>
+
+                <label for="chave">Digite uma palavra chave de cinco letras</label><br>
+                <input type="text" size="5" maxlength="5"><br><br>
+
+                <label for="senha">crie uma senha de no máximo 8 digitos</label><br>
+                <input type="password" maxlength="8" size="8"><br><br>
+
+                <label for="humor">Como está seu humor hoje?</label><br>
+                ruim<input type="range">bom <br><br>
+
+                <label for="Desabilitado">Não escreva aqui</label><br>
+                <input type="text" value="não dá para escrever" id="Desabilitado" disabled><br><br>
+
+                <label for="ler">Leia isso aqui</label><br>
+                <input type="text" value="Boa noite" id="ler" readonly><br><br>
+
+                <label for="opçao">Escolha seu número da sorte</label><br>
+                <input type="checkbox" name="opçao1" id="opçao">3
+                <input type="checkbox" name="opçao2" id="opçao">5
+                <input type="checkbox" name="opçao3" id="opçao">7 <br><br>
+
+                <label for="button">NÃO CLIQUE NO BOTÃO</label><br>
+                <input type="button" id="button" onclick="alert('Você foi amaldiçoado!')" value="BOTÃO"> <br><br>
+
+                <label for="email">Registre seu email</label><br>
+                <input type="email" name="email1" id="email" value="Escreva aqui"><br>
+                <label for="c-email">Confirme seu email</label><br>
+                <input type="email" value="Escreva aqui"><br><br>
+
+                <label for="salvar">Escolha um locar para salvar</label>
+                <input type="file" id="salvar"><br><br>
+
+                <label for="cor">Escolha sua cor favorita</label><br>
+                <input type="color"><br><br>
+
+                <label for="url">Coloque um URL aqui</label><br>
+                <input type="url"><br><br>
+
+                <label for="reset">Clique aqui para resetar o site</label><br>
+                <input type="reset" value="reset"><br><br>
+            </form>
+        </nav>
+    </main>
+    <footer>
+        <nav>
+            <h1>Autoria</h1>
+            <p><i>Artur Akira</i></p>
+        </nav>
+    </footer>
+        
+
+</body>
+</html>

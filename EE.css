@@ -1,0 +1,44 @@
+body{
+    background-color: grey;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+header{
+    background-color: darkred;
+    padding: 10px 0px 0px 0px;
+}
+main{
+    font-size: 40px;
+    color: black;
+}
+footer{
+    background-color: lightgray;
+    padding: 0px 0px 10px 0px;
+}
+input{
+    font-size: 20px;
+    color: blue;
+    outline: auto black;
+    background-color: brown;
+    text-align: center;
+}
+::placeholder{
+    color: palegoldenrod;
+    
+}
+input{
+    color: palegoldenrod;
+}
+input:hover{
+    color: blue;
+}
+input:hover::placeholder{
+    color: blue;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 30px;
+}
+
